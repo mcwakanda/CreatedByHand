@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Main Page</title>
+    <title>The Second Page</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta name="WAF.packageJson"/>
     <meta name="WAF.catalog" content="" />
 </head>
+<!-- Adding a local object datasource with one of each type of attribute -->
+<meta data-type="dataSource"
+      data-lib="WAF"
+      data-source-type="object"
+      data-dataType="string"
+      data-autoLoad="true"
+      name="WAF.config.datasources"
+      data-id="obj1"
+      data-source="obj1"
+      data-attributes="att1:string,att2:number,att3:boolean,att4:object,att5:date"
+      content="obj1"
+/>
+
 <body id="waf-body"
       data-type="document"
       data-lib="WAF"
